@@ -19,7 +19,14 @@ Run server (poll_server or select_server) and client
 ./pool_server
 ./client
 ```
+
 For docker container run.sh script starts pool_server with client
+
+```bash
+docker build -t docker-syscalls-sample /path/to/syscall_basic_task
+
+docker run docker-syscalls-sample
+```
 
 ## Requires
 cmake, gcc
